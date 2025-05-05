@@ -31,7 +31,7 @@ def fill_values(values_file_path, tests_file_path, report_file_path):
 
 if __name__ == "__main__":
     if len(sys.argv) != 4:
-        print("Usage: python script.py values.json tests.json report.json")
+        print("Usage: python task3.py values.json tests.json report.json")
         sys.exit(1)
 
     values_file = sys.argv[1]

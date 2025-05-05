@@ -30,7 +30,6 @@ if __name__ == "__main__":
         print("Error: n and m must be integers.")
         sys.exit(1)  # Завершаем программу, если аргументы не являются целыми числами
 
-    # Вызываем функцию с полученными значениями
     result = circular_path(n, m)
 
     if result:
