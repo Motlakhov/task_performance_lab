@@ -3,7 +3,7 @@ import sys
 def circular_path(n, m):
   
     arr = list(range(1, n + 1))
-    result = []  
+    result = []
     start_idx = 0  
     current_pos = 0  
 
